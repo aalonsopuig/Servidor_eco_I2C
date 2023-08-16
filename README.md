@@ -20,23 +20,17 @@ como servidor de eco, devolviendo al PC el último byte que le haya sido
 enviado. Este sistema estará compuesto por los siguientes elementos
 Hardware/Software:&nbsp;</p>
 <p align="justify"><u>Hardware</u>&nbsp;</p>
-  <li>
-    <p align="left">PC&nbsp;</li>
-  <li>
-    <p align="left">Tarjeta interface puerto paralelo/bus I<sup>2</sup>C K8000 de
-    Velleman&nbsp;</li>
-  <li>
-    <p align="left">Placa con Microcontrolador PIC16F876</li>
+     <p align="left">PC&nbsp;
+     <p align="left">Tarjeta interface puerto paralelo/bus I<sup>2</sup>C K8000 de
+    Velleman&nbsp;
+     <p align="left">Placa con Microcontrolador PIC16F876
 <br>
 <p align="justify"><u>Software</u>&nbsp;</p>
-  <li>
     <p align="left">Librerías en Visual C++ para el control de la tarjeta
-    interface&nbsp;</li>
-  <li>
-    <p align="left">Aplicación en Visual C++ para el envío y recepción de
-    datos por bus&nbsp; I<sup>2</sup>C</li>
-  <li>
-    <p align="left">Programa servidor de eco en ensamblador para PIC</li>
+    interface&nbsp;
+     <p align="left">Aplicación en Visual C++ para el envío y recepción de
+    datos por bus&nbsp; I<sup>2</sup>C
+    <p align="left">Programa servidor de eco en ensamblador para PIC
 <br>
 <img border="0" src="Link.jpg" width="310" height="349"></td>
  <br>
@@ -53,19 +47,19 @@ Windows NT/2000/XP y otros lenguajes, como Visual Basic, Qbasic, Pascal, Borland
 C y Java. Asimismo se hará mención a un sustituto de la placa K8000 en caso de
 que el lector no pueda disponer de ella.</p>
 <ul>
-  <li>
+
     <p align="justify"><a href="I2cPC.pdf">Informe Técnico</a>   <font size="1">
-    (.PDF 700kb)</font></li>
-  <li>
+    (.PDF 700kb)</font>
+
     <p align="justify"><a href="LibW9xVCpp.zip">Librerías para
     Visual C++
-    sobre Windows 9x</a><font size="2">  </font><font size="1">(.ZIP 150kb)</font></li>
-  <li>
+    sobre Windows 9x</a><font size="2">  </font><font size="1">(.ZIP 150kb)</font>
+
     <p align="justify"><a href="I2C_Com.zip">Programa Master de ejemplo en
-    Visual C++</a><font size="2">   </font><font size="1">(.ZIP 43kb)</font></li>
-  <li>
+    Visual C++</a><font size="2">   </font><font size="1">(.ZIP 43kb)</font>
+
     <p align="justify"><a href="ECOI2C01_Slave.ASM">Slave servidor de eco en
-    ensamblador</a><font size="1">(.ASM 9Kb)</font><font size="2">&nbsp;</font></li>
+    ensamblador</a><font size="1">(.ASM 9Kb)</font><font size="2">&nbsp;</font>
 </ul>
 <p><b>Nota</b>: Master y Slave han de estar conectados mediante tres hilos:
 Masa, SCL y SDA. El módulo presentado incluye las resistencias de PullUp, por
