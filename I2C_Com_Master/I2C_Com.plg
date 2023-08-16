@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: I2C_Com - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc0a /fo"Release/I2C_Com.res" /d "NDEBUG" /d "_AFXDLL" "C:\_basura\I2C_Com\I2C_Com.rc"" 
+Creating temporary file "c:\windows\TEMP\RSP8004.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/I2C_Com.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\_basura\I2C_Com\I2c.cpp"
+"C:\_basura\I2C_Com\I2C_Com.cpp"
+"C:\_basura\I2C_Com\I2C_ComDlg.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP8004.TMP" 
+Creating temporary file "c:\windows\TEMP\RSP8005.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/I2C_Com.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\_basura\I2C_Com\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP8005.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/I2C_Com.pdb" /machine:I386 /out:"Release/I2C_Com.exe"  .\Release\I2c.obj .\Release\I2C_Com.obj .\Release\I2C_ComDlg.obj .\Release\StdAfx.obj .\Release\I2C_Com.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+I2c.cpp
+I2C_Com.cpp
+I2C_ComDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+I2C_Com.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
