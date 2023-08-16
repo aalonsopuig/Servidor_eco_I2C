@@ -20,18 +20,18 @@ como servidor de eco, devolviendo al PC el último byte que le haya sido
 enviado. Este sistema estará compuesto por los siguientes elementos
 Hardware/Software:&nbsp;</p>
 <p align="justify"><u>Hardware</u>&nbsp;</p>
-     <p align="left">PC&nbsp;
-     <p align="left">Tarjeta interface puerto paralelo/bus I<sup>2</sup>C K8000 de
+     <p align="left">- PC&nbsp;
+     <p align="left">- Tarjeta interface puerto paralelo/bus I<sup>2</sup>C K8000 de
     Velleman&nbsp;
-     <p align="left">Placa con Microcontrolador PIC16F876
+     <p align="left">- Placa con Microcontrolador PIC16F876
 <br>
 <p align="justify"><u>Software</u>&nbsp;</p>
-    <p align="left">Librerías en Visual C++ para el control de la tarjeta
+    <p align="left">- Librerías en Visual C++ para el control de la tarjeta
     interface&nbsp;
-     <p align="left">Aplicación en Visual C++ para el envío y recepción de
+     <p align="left">- Aplicación en Visual C++ para el envío y recepción de
     datos por bus&nbsp; I<sup>2</sup>C
-    <p align="left">Programa servidor de eco en ensamblador para PIC
-<br>
+    <p align="left">- Programa servidor de eco en ensamblador para PIC
+<br><br>
 <img border="0" src="Link.jpg" width="310" height="349"></td>
  <br>
  <p align="justify">Este desarrollo pretende simplemente dar un origen para
