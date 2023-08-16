@@ -47,19 +47,19 @@ Windows NT/2000/XP y otros lenguajes, como Visual Basic, Qbasic, Pascal, Borland
 C y Java. Asimismo se hará mención a un sustituto de la placa K8000 en caso de
 que el lector no pueda disponer de ella.</p>
 <ul>
-
+  <li>
     <p align="justify"><a href="I2cPC.pdf">Informe Técnico</a>   <font size="1">
-    (.PDF 700kb)</font>
-
+    (.PDF 700kb)</font></li>
+  <li>
     <p align="justify"><a href="LibW9xVCpp.zip">Librerías para
     Visual C++
-    sobre Windows 9x</a><font size="2">  </font><font size="1">(.ZIP 150kb)</font>
-
+    sobre Windows 9x</a><font size="2">  </font><font size="1">(.ZIP 150kb)</font></li>
+  <li>
     <p align="justify"><a href="I2C_Com.zip">Programa Master de ejemplo en
-    Visual C++</a><font size="2">   </font><font size="1">(.ZIP 43kb)</font>
-
+    Visual C++</a><font size="2">   </font><font size="1">(.ZIP 43kb)</font></li>
+  <li>
     <p align="justify"><a href="ECOI2C01_Slave.ASM">Slave servidor de eco en
-    ensamblador</a><font size="1">(.ASM 9Kb)</font><font size="2">&nbsp;</font>
+    ensamblador</a><font size="1">(.ASM 9Kb)</font><font size="2">&nbsp;</font></li>
 </ul>
 <p><b>Nota</b>: Master y Slave han de estar conectados mediante tres hilos:
 Masa, SCL y SDA. El módulo presentado incluye las resistencias de PullUp, por
